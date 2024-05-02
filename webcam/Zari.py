@@ -1,3 +1,4 @@
+#자리비움인식
 import cv2
 import time
 
@@ -34,7 +35,7 @@ while True:
         last_detection_time = time.time()
         detection_count += 1
 
-    # 3초가 지났는지 확인하고 메시지 출력
+    # 5초가 지났는지 확인하고 메시지 출력
     current_time = time.time()
     if current_time - last_message_time >= message_interval:
         last_message_time = current_time
